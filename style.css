@@ -79,3 +79,9 @@ img {
 .nav-menu-wrapper {
     padding-left: 20px;
 }
+
+.main-body {
+    margin: auto;
+    font-size: x-large;
+    font-style: italic;
+}
