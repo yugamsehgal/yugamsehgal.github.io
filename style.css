@@ -9,6 +9,7 @@ body {
     font-family: sans-serif;
     margin-left: auto;
     margin-right: auto;
+    height: 100vh;
 }
 
 .navbar {
@@ -86,7 +87,6 @@ img {
     font-size: x-large;
     font-style: italic;
     height: 100%;
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
     max-width: 1140px;
 }
