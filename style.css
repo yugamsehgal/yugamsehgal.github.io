@@ -81,7 +81,9 @@ img {
 }
 
 .main-body {
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: x-large;
     font-style: italic;
 }
