@@ -9,21 +9,23 @@ body {
     font-family: sans-serif;
     margin-left: auto;
     margin-right: auto;
-    height: 100vh;
+    max-width: 1140px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .navbar {
     position: fixed; 
     bottom:0%;
-    width: 100vw;
-    background-color: cadetblue;
+    width: 100%
 }
 
 .navbar-container {
     z-index: 5;
     display: flex;
     width: 100%;
-    max-width: 1140px;
     margin-right: auto;
     margin-left: auto;
     padding: 15px;
@@ -80,13 +82,3 @@ img {
     padding-left: 20px;
 }
 
-.main-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: x-large;
-    font-style: italic;
-    height: 100%;
-    margin: auto;
-    max-width: 1140px;
-}
