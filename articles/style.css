@@ -1,3 +1,27 @@
-.article-list p {
-  display: inline-block;
+.article-list {
+  padding-left: 0px;
+}
+
+.article-list li::marker{
+  content: "";
+}
+
+.article-list time {
+  text-decoration: none;
+  color: var(--gray);
+}
+
+.article-list a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.article-list a:hover {
+  color: var(--black);
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+h1 {
+  text-align: center;
 }
