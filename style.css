@@ -120,11 +120,14 @@ hr {
 }
 
 a {
-    text-decoration: none;
-    color: var(--black);
     text-decoration: underline;
+    color: var(--black);
 }
 
 a:hover {
     font-weight: 600;
+}
+
+a:visited {
+    color: var(--gray);
 }
