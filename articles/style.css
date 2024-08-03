@@ -18,3 +18,18 @@
 h1,h2 {
   text-align: center;
 }
+
+#nextprev {
+  display: flex;
+  justify-content: space-between;
+}
+
+#prevart {
+  text-align: left;
+  max-width: 200px;
+}
+
+#nextart {
+  text-align: right;
+  max-width: 200px;
+}
