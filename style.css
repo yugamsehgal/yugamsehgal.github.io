@@ -5,13 +5,14 @@
     --gray: gray;
     --green: rgba(18, 203, 74, 0.4);
     --off-white: #FAF9F6;
+    --off-white: #f9efd2;
     --nav-link-active: var(--black);
     --nav-link-inactive: var(--gray);
-    --page-background-color: var(--off-white);
+    --bg-color: var(--off-white);
 }
 
 body {
-    background-color: var(--page-background-color);
+    background-color: var(--bg-color);
     color: var(--black);
     font-family: monospace;
     font-size: 16px;
@@ -116,4 +117,14 @@ hr {
     height: 1px;
     color: var(--black);
     background-color: var(--black);
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+    text-decoration: underline;
+}
+
+a:hover {
+    font-weight: 600;
 }
