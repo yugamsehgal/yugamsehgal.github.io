@@ -11,9 +11,19 @@
     --bg-color: var(--off-white);
 }
 
+[data-theme="light"] {
+    --color-bg: var(--off-white);
+    --color-fg: var(--black);
+}
+
+[data-theme="dark"] {
+    --color-bg: var(--black);
+    --color-fg: var(--off-white);
+}
+
 body {
-    background-color: var(--bg-color);
-    color: var(--black);
+    background-color: var(--color-bg);
+    color: var(--color-fg);
     font-family: monospace;
     font-size: 16px;
     line-height: 1.4;

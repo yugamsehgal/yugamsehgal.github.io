@@ -42,3 +42,30 @@ h1,h2 {
 #nextprev a {
   text-decoration: none;
 }
+
+header{
+  display: flex;
+  align-items: top;
+  justify-content: center;
+}
+
+button {
+  justify-self: flex-end;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding: 10px; */
+  /* transition: all var(--global-transition-time) ease-in-out; */
+  /* border-radius: 2em; */
+  /* border-style: solid; */
+  cursor: pointer;
+  border: none;
+  color: var(--color-fg);
+  background-color: var(--color-bg);
+  margin-top: auto;
+  align-self: bottom;
+  font-size: 10px;
+}
+
+/* article {
+  text-align: justify;
+} */
