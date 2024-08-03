@@ -104,11 +104,6 @@ body {
 
 .nav-list li.list-item:nth-child(4) {
     display: block;
-    /* display: none; */
-}
-
-.nav-list li.list-item:nth-child(5) {
-    display: block;
     display: none;
     justify-content: flex-end;
     margin-left: auto;
