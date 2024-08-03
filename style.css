@@ -25,8 +25,7 @@ body {
 
 .navbar {
     display: flex;
-    padding: 0;
-    /* 12.5px;*/
+    /* padding: 0 12.5px; */
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: nowrap;
@@ -36,8 +35,7 @@ body {
     pointer-events: auto;
     border-radius: 4px;
     overflow: hidden;
-    /* background: url(assets/background.svg); */
-    /* background-color: transparent; */
+    /* background-color: var(--green); */
     /* backdrop-filter: blur(4px); */
     display: none;
 }

@@ -8,7 +8,12 @@
 
 .article-list time {
   color: var(--gray);
+  font-size: 14px;
 }
+
+/* .article-list a{
+  
+} */
 
 h1,h2 {
   text-align: center;
