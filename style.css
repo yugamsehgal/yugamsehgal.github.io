@@ -77,16 +77,14 @@ body {
     text-decoration: none;
 }
 
+.nav-link-active {
+    color: var(--nav-link-active);
+}
+
 .nav-link:hover {
     color: var(--black);
     text-decoration: underline;
 }
-
-.nav-link-active {
-    color: var(--nav-link-active)
-}
-
-
 
 .nav-list li.list-item:nth-child(1) {
     display: block;
@@ -126,6 +124,6 @@ a:hover {
     font-weight: 600;
 }
 
-a:visited {
+:not(header a:visited, :not(a:visited)) {
     color: var(--gray);
 }
