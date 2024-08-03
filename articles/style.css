@@ -35,3 +35,11 @@ h1,h2 {
   text-align: right;
   max-width: 200px;
 }
+
+.nextprev-head {
+  font-weight: 600;
+}
+
+#nextprev a {
+  text-decoration: none;
+}
