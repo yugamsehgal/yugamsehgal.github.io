@@ -22,8 +22,7 @@ h1,h2 {
 #nextprev {
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
-  margin-bottom: 100px;
+  margin: 50px 0;
 }
 
 #prevart {
