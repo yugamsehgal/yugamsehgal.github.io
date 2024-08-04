@@ -29,13 +29,12 @@ h2 {
 }
 
 #prevart {
+
   text-align: left;
-  /* max-width: 200px; */
 }
 
 #nextart {
   text-align: right;
-  /* max-width: 200px; */
 }
 
 .nextprev-head {
