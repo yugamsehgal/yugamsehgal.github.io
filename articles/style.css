@@ -23,7 +23,7 @@ h2 {
 #nextprev {
   display: flex;
   align-items: top;
-  margin: 50px 0 15px 0;
+  margin: 50px 0 0 0;
   gap: 25px;
 }
 

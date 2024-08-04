@@ -138,7 +138,7 @@ main {
 
 footer {
     flex: none;
-    margin-top: auto;
+    margin-top: 15px;
     border-top: 1px solid var(--color-fg);
 }
 
