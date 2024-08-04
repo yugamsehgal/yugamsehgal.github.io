@@ -99,6 +99,7 @@ body {
 }
 
 .nav-link:hover {
+    color: var(--color-fg);
     text-decoration: underline;
 }
 
@@ -135,13 +136,10 @@ main {
 }
 
 footer {
-    /* margin: 0 -50vw;
-    padding: 0 50vw; */
-    flex: none;
     margin-top: 15px;
-    /* border-top: 1px solid var(--color-fg); */
-    background-color: hsla(0, 0%, 0%, 0.114);
-    backdrop-filter: blur(4px);
+    border-top: 1px dashed var(--color-fg);
+    background-color: rgba(0, 0, 0, 0.1);
+    /* backdrop-filter: blur(4px); */
 }
 
 button {
