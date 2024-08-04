@@ -21,19 +21,20 @@ h1,h2 {
 
 #nextprev {
   display: flex;
+  align-items: top;
   justify-content: space-between;
-  margin: 50px 0px 20px 0px;
+  margin: 50px 0 20px 0;
   gap: 25px;
 }
 
 #prevart {
   text-align: left;
-  max-width: 200px;
+  /* max-width: 200px; */
 }
 
 #nextart {
   text-align: right;
-  max-width: 200px;
+  /* max-width: 200px; */
 }
 
 .nextprev-head {
