@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"  data-theme="light">
+<html lang="en" data-theme="light">
 
 <head>
 	<title>Yugam's Webpage</title>
@@ -13,6 +13,29 @@
 </head>
 
 <body>
+	<script>
+    window.addEventListener('load', function () {
+      var theme = localStorage.getItem('theme');
+      // when first load, choose an initial theme
+      if (theme === null || theme === undefined) {
+        theme = 'light';
+        localStorage.setItem('theme', theme);
+      }
+      // set theme
+      var html = document.querySelector("html");
+      // apply the variable
+      html.setAttribute("data-theme", theme);
+    })
+
+    function toggleTheme() {
+      var theme = document.querySelector("html").getAttribute("data-theme");
+      var newTheme = theme === "light" ? "dark" : "light";
+      document.querySelector("html").setAttribute("data-theme", newTheme);
+      theme = newTheme;
+      localStorage.setItem('theme', newTheme);
+    }
+  </script>
+
 	<main>
 		<h1>hi,</h1>
 		<p>check out my <a href="/articles">blog</a> articles.</p>
@@ -34,11 +57,9 @@
 					<li class="list-item">
 						<a class="nav-link" href="/articles">blog</a>
 					</li>
-					<li class="list-item">
-						<a class="nav-link" href="/contact">contact</a>
-					</li>
 				</ul>
 			</nav>
+			<button type="button" onclick=toggleTheme() aria-label="toggle theme">toggle theme</button>
 		</div>
 	</footer>
 </body>

@@ -120,13 +120,6 @@ body {
     /* display: none; */
 }
 
-.nav-list li.list-item:nth-child(4) {
-    display: block;
-    display: none;
-    justify-content: flex-end;
-    margin-left: auto;
-}
-
 a {
     text-decoration: underline;
     color: var(--color-fg);
@@ -142,7 +135,6 @@ a:hover {
 
 main {
     flex: auto;
-    overflow: auto;
 }
 
 footer {
@@ -150,3 +142,19 @@ footer {
     margin-top: auto;
     border-top: 1px solid var(--color-fg);
 }
+
+button {
+    justify-self: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 10px; */
+    /* transition: all var(--global-transition-time) ease-in-out; */
+    /* border-radius: 2em; */
+    /* border-style: solid; */
+    cursor: pointer;
+    border: none;
+    color: var(--color-fg);
+    background-color: var(--color-bg);
+    font-size: 10px;
+    padding: 0;
+  }
