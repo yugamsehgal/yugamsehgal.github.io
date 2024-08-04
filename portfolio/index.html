@@ -4,7 +4,9 @@
 <head>
 	<title>Yugam's Portfolio</title>
 	<link rel="canonical" href="https://yugamsehgal.xyz/portfolio">
-	<link rel="stylesheet" type="text/css" href="../style.css">
+	<link rel="stylesheet" type="text/css" href="/style.css">
+	<link rel="stylesheet" type="text/css" href="/articles/style.css">
+	<link rel="stylesheet" type="text/css" href="/portfolio/style.css">
 	<link rel="icon" href="/assets/profile_picture.webp">
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,7 +27,7 @@
 			html.setAttribute("data-theme", theme);
 			// set btn inner text
 			var toggleThemeBtn = document.getElementById("toggle-theme-btn");
-			toggleThemeBtn.innerText = theme === "light" ? "night mode: off" : "night mode: on" ;
+			toggleThemeBtn.innerText = theme === "light" ? "night mode: off" : "night mode: on";
 		})
 
 		function toggleTheme() {
@@ -36,12 +38,48 @@
 			localStorage.setItem('theme', newTheme);
 
 			var toggleThemeBtn = document.getElementById("toggle-theme-btn");
-			toggleThemeBtn.innerText = theme === "light" ? "night mode: off" : "night mode: on" ;
+			toggleThemeBtn.innerText = theme === "light" ? "night mode: off" : "night mode: on";
 		}
 	</script>
 
 	<main>
-		<p>Portfolio</p>
+		<h2>Yugam's Portfolio</h2>
+
+
+
+
+		<h4>
+			<h3 class="proj-year">2022</h3>
+			<ul class="proj-list">
+				<li>
+					<time datetime="2022-02-01">Feb</time>
+					-
+					<a href="https://github.com/yugamsehgal/">YouTube Database</a>
+				</li>
+				<p>yes this is a description</p>
+
+				<li>
+					<time datetime="2022-01-01">Jan</time>
+					-
+					<a href="https://github.com/yugamsehgal/">WhatsApp Tic Tac Toe Game</a>
+				</li>
+				<p>dissscription</p>
+
+			</ul>
+		</h4>
+		<h4>
+			<h3 class="proj-year">2021</h3>
+			<ul class="proj-list">
+				<li>
+					<time datetime="2021-10-15">Oct</time>
+					-
+					<a href="https://github.com/yugamsehgal/">AWS Android App (ATL Challenge 2021)</a>
+				</li>
+				<p>disssocription</p>
+			</ul>
+		</h4>
+
+
 	</main>
 
 	<footer>

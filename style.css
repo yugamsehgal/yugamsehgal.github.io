@@ -111,7 +111,7 @@ body {
 
 .nav-list li.list-item:nth-child(2) {
     display: block;
-    display: none;
+    /* display: none; */
 }
 
 .nav-list li.list-item:nth-child(3) {
