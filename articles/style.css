@@ -23,18 +23,22 @@ h2 {
 #nextprev {
   display: flex;
   align-items: top;
-  justify-content: space-between;
   margin: 50px 0 15px 0;
   gap: 25px;
 }
 
-#prevart {
-
-  text-align: left;
+.prevart {
+  margin-right: auto;
+  div {
+    text-align: left;
+  }
 }
 
-#nextart {
-  text-align: right;
+.nextart{
+  margin-left: auto;
+  div {
+    text-align: right;
+  }
 }
 
 .nextprev-head {
