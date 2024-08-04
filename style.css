@@ -136,25 +136,14 @@ main {
     flex: auto;
 }
 
-footer {
-    margin: 0 -100vw;
-    padding: 0 100vw;
-    width: 100%;
-    flex: none;
-    margin-top: 15px;
-    border-top: 1px dashed var(--color-fg);
-    background-color: var(--footer-bg);
-    backdrop-filter: blur(4px);
-}
-
 button {
     border: none;
     cursor: pointer;
     color: var(--color-fg);
     background-color: transparent;
     font-size: 10px;
-    align-self: center;
-    padding: 0 ;
+    /* align-self: center; */
+    padding: 0;
 }
 
 html {
@@ -166,4 +155,21 @@ html {
 html::-webkit-scrollbar {
     width: 0;
     height: 0;
+}
+
+footer {
+    /* margin: 0 -100%;
+    padding: 0 100%;
+    max-width: 800px;
+    width: 100%; */
+    margin: 0 -15px;
+    padding: 0 15px;
+    
+
+    flex: none;
+    margin-top: 15px;
+    border-top: 1px dashed var(--color-fg);
+    background-color: var(--footer-bg);
+    backdrop-filter: blur(4px);
+    overflow: hidden;
 }
