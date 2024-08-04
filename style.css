@@ -158,17 +158,10 @@ html::-webkit-scrollbar {
 }
 
 footer {
-    /* margin: 0 -100%;
-    padding: 0 100%;
-    max-width: 800px;
-    width: 100%; */
     margin: 0 -15px;
     padding: 0 15px;
-    
-
     flex: none;
     margin-top: 15px;
-    border-top: 1px dashed var(--color-fg);
     background-color: var(--footer-bg);
     backdrop-filter: blur(4px);
     overflow: hidden;
