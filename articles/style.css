@@ -23,6 +23,7 @@ h1,h2 {
   display: flex;
   justify-content: space-between;
   margin: 50px 0px 20px 0px;
+  gap: 25px;
 }
 
 #prevart {
