@@ -22,7 +22,7 @@ h1,h2 {
 #nextprev {
   display: flex;
   justify-content: space-between;
-  margin: 50px 0;
+  margin: 50px 0px 20px 0px;
 }
 
 #prevart {
@@ -43,12 +43,6 @@ h1,h2 {
   text-decoration: none;
 }
 
-header{
-  display: flex;
-  align-items: top;
-  justify-content: center;
-}
-
 button {
   justify-self: flex-end;
   margin-left: auto;
@@ -61,9 +55,8 @@ button {
   border: none;
   color: var(--color-fg);
   background-color: var(--color-bg);
-  margin-top: auto;
-  align-self: bottom;
   font-size: 10px;
+  padding: 0;
 }
 
 /* article {

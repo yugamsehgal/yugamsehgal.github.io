@@ -31,11 +31,20 @@ body {
     margin-right: auto;
     max-width: 800px;
     padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
 }
 
 .navbar {
     display: flex;
-    /* padding: 0 12.5px; */
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: nowrap;
@@ -45,9 +54,6 @@ body {
     pointer-events: auto;
     border-radius: 4px;
     overflow: hidden;
-    /* background-color: var(--green); */
-    /* backdrop-filter: blur(4px); */
-    display: none;
 }
 
 .profile-pic {
@@ -92,7 +98,7 @@ body {
 }
 
 .nav-link:hover {
-    color: var(--black);
+    /* color: var(--black); */
     text-decoration: underline;
 }
 
@@ -118,13 +124,6 @@ body {
     margin-left: auto;
 }
 
-hr {
-    border: none;
-    height: 1px;
-    color: var(--black);
-    background-color: var(--black);
-}
-
 a {
     text-decoration: underline;
     color: var(--black);
@@ -134,6 +133,17 @@ a:hover {
     font-weight: 600;
 }
 
-:not(header a:visited, :not(a:visited)) {
+:not(header a:visited, footer a:visited, :not(a:visited)) {
     color: var(--gray);
+}
+
+main {
+    flex: auto;
+    overflow: auto;
+}
+
+footer {
+    flex: none;
+    margin-top: auto;
+    border-top: 1px solid var(--color-fg);
 }
