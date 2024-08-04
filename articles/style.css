@@ -2,7 +2,7 @@
   padding-left: 0px;
 }
 
-.article-list li::marker{
+.article-list li::marker {
   content: "";
 }
 
@@ -15,7 +15,8 @@
   
 } */
 
-h1,h2 {
+h1,
+h2 {
   text-align: center;
 }
 

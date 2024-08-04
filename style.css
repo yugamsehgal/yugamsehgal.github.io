@@ -22,7 +22,8 @@
     /* --gray: var(--gray); */
 }
 
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
 }
@@ -43,8 +44,6 @@ body {
     align-items: stretch;
     justify-content: space-between;
 }
-
-
 
 .navbar {
     display: flex;
@@ -144,17 +143,11 @@ footer {
 }
 
 button {
-    justify-self: flex-end;
-    margin-left: auto;
-    margin-right: auto;
-    /* padding: 10px; */
-    /* transition: all var(--global-transition-time) ease-in-out; */
-    /* border-radius: 2em; */
-    /* border-style: solid; */
-    cursor: pointer;
     border: none;
+    cursor: pointer;
     color: var(--color-fg);
     background-color: var(--color-bg);
     font-size: 10px;
-    padding: 0;
-  }
+    align-self: center;
+    padding: 0 ;
+}
