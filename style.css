@@ -1,30 +1,31 @@
 :root {
     --white: white;
+    --off-white: #FAF9F6;
+    --off-white: #f9efd2;
     --black: black;
     --gray: rgb(97, 96, 96);
     --gray: gray;
     --green: rgba(18, 203, 74, 0.4);
-    --off-white: #FAF9F6;
-    --off-white: #f9efd2;
-    --nav-link-active: var(--black);
+    --nav-link-active: var(--color-fg);
     --nav-link-inactive: var(--gray);
-    --bg-color: var(--off-white);
 }
 
 [data-theme="light"] {
     --color-bg: var(--off-white);
     --color-fg: var(--black);
+    /* --gray: var(--gray); */
 }
 
 [data-theme="dark"] {
     --color-bg: var(--black);
     --color-fg: var(--off-white);
+    /* --gray: var(--gray); */
 }
 
 body {
     background-color: var(--color-bg);
     color: var(--color-fg);
-    font-family: monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.4;
     margin-left: auto;
@@ -126,7 +127,7 @@ html, body {
 
 a {
     text-decoration: underline;
-    color: var(--black);
+    color: var(--color-fg);
 }
 
 a:hover {
