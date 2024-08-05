@@ -20,8 +20,8 @@
 }
 
 [data-theme="dark"] {
-    --color-bg: var(--dark);
-    --color-fg: var(--light);
+    --color-bg: rgb(28, 27, 34);
+    --color-fg: rgb(251, 251, 254);
     --footer-bg: rgb(249, 239, 210, 0.1);
 }
 
