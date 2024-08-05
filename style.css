@@ -9,17 +9,19 @@
     --green: rgba(18, 203, 74, 0.4);
     --nav-link-active: var(--color-fg);
     --nav-link-inactive: var(--gray);
+    --light: rgb(244, 236, 216);
+    --dark: rgb(91, 70, 54);
 }
 
 [data-theme="light"] {
-    --color-bg: var(--off-white);
-    --color-fg: var(--black);
+    --color-bg: var(--light);
+    --color-fg: var(--dark);
     --footer-bg: rgba(0, 0, 0, 0.1);
 }
 
 [data-theme="dark"] {
-    --color-bg: var(--black);
-    --color-fg: var(--off-white);
+    --color-bg: var(--dark);
+    --color-fg: var(--light);
     --footer-bg: rgb(249, 239, 210, 0.1);
 }
 
