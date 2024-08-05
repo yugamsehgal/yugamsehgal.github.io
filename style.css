@@ -162,7 +162,8 @@ footer {
     padding: 0 15px;
     flex: none;
     margin-top: 15px;
-    background-color: var(--footer-bg);
+    border-top: 1px solid var(--color-fg);
+    /* background-color: var(--footer-bg); */
     backdrop-filter: blur(4px);
     overflow: hidden;
 }
