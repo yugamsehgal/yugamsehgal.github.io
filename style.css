@@ -11,18 +11,21 @@
     --nav-link-inactive: var(--gray);
     --light: rgb(244, 236, 216);
     --dark: rgb(91, 70, 54);
+    --link-color: rgb(0, 97, 224);
 }
 
 [data-theme="light"] {
     --color-bg: var(--light);
     --color-fg: var(--dark);
     --footer-bg: rgba(0, 0, 0, 0.1);
+    --link-color: rgb(0, 97, 224);
 }
 
 [data-theme="dark"] {
     --color-bg: rgb(28, 27, 34);
     --color-fg: rgb(251, 251, 254);
     --footer-bg: rgb(249, 239, 210, 0.1);
+    --link-color: rgb(0, 221, 255);
 }
 
 html,
@@ -122,17 +125,13 @@ body {
 }
 
 a {
-    text-decoration: underline;
-    color: var(--color-fg);
+    color: var(--link-color);
+    text-decoration: none;
 }
 
-a:hover {
-    font-weight: 600;
-}
-
-:not(header a:visited, footer a:visited, :not(a:visited)) {
+/* :not(header a:visited, footer a:visited, :not(a:visited)) {
     color: var(--gray);
-}
+} */
 
 main {
     flex: auto;
