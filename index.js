@@ -10,7 +10,7 @@ window.addEventListener('load', function () {
   html.setAttribute("data-theme", theme);
   // set btn inner text
   var toggleThemeBtn = document.getElementById("toggle-theme-btn");
-  toggleThemeBtn.innerText = theme === "light" ? "night mode: off" : "night mode: on" ;
+  toggleThemeBtn.innerText = theme === "light" ? "night mode: off" : "night mode: on";
 })
 
 function toggleTheme() {
@@ -21,12 +21,5 @@ function toggleTheme() {
   localStorage.setItem('theme', newTheme);
 
   var toggleThemeBtn = document.getElementById("toggle-theme-btn");
-  toggleThemeBtn.innerText = theme === "light" ? "night mode: off" : "night mode: on" ;
+  toggleThemeBtn.innerText = theme === "light" ? "night mode: off" : "night mode: on";
 }
-
-let current_url = document.location;
-    document.querySelectorAll(".nav-link").forEach(function(e){
-       if(e.href == current_url){
-          e.classList += " nav-link-active";
-       }
-    });

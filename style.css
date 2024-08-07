@@ -80,11 +80,11 @@ body {
   text-decoration: underline;
 }
 
-.nav-list li.list-item:nth-child(1),
+/* .nav-list li.list-item:nth-child(1), */
 .nav-list li.list-item:nth-child(2),
 .nav-list li.list-item:nth-child(3) {
   display: block;
-  /* display: none; */
+  display: none;
 }
 
 a {
@@ -122,8 +122,6 @@ footer {
   padding: 0 15px;
   flex: none;
   margin-top: 100px;
-  backdrop-filter: blur(4px);
-  /* min-height: 40px; */
 }
 
 
