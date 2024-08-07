@@ -105,15 +105,16 @@ main {
   color: var(--color-fg);
   background-color: transparent;
   font-size: 10px;
-  align-self: center;
+  /* align-self: center; */
   padding: 0;
+  padding-left: 10px
 }
 
 #toggle-theme-btn svg {
   fill: var(--color-fg);
   fill: gray;
   width: 22.5px;
-  height: 22.5x;
+  height: 22.5px;
 }
 
 
