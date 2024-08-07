@@ -24,7 +24,9 @@ function toggleTheme() {
   toggleThemeBtn.innerText = theme === "light" ? "night mode: off" : "night mode: on" ;
 }
 
-$('li').click(function() {
-  $(this).siblings().find('a').removeClass('focus');
-  $(this).find('a').addClass('focus');
-});
+let current_url = document.location;
+    document.querySelectorAll(".nav-link").forEach(function(e){
+       if(e.href == current_url){
+          e.classList += " nav-link-active";
+       }
+    });
