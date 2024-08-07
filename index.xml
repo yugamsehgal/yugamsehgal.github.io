@@ -9,11 +9,11 @@
     <lastBuildDate>Wed, 07 Aug 2024 13:40:20 +0530</lastBuildDate>
     <atom:link href="https://yugamsehgal.xyz/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Portfolio</title>
-      <link>https://yugamsehgal.xyz/portfolio/</link>
+      <title>Projects</title>
+      <link>https://yugamsehgal.xyz/projects/</link>
       <pubDate>Wed, 07 Aug 2024 13:40:20 +0530</pubDate>
-      <guid>https://yugamsehgal.xyz/portfolio/</guid>
-      <description>Tech Stack Tools Projects 2023 Jul - WhatsApp Tic Tac Toe Game&#xA;Jun - Youtube Database&#xA;Previous AWS Android App (ATL Challenge 2021)</description>
+      <guid>https://yugamsehgal.xyz/projects/</guid>
+      <description>2023 Jul - WhatsApp Tic Tac Toe Game&#xA;Jun - Youtube Database&#xA;Previous AWS Android App (ATL Challenge 2021)</description>
     </item>
     <item>
       <title>Next Article</title>
