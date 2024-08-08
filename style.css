@@ -198,3 +198,5 @@ h1 {
 .centered {
   text-align: center;
 }
+
+img[alt=profile_pic] { width: 256px; }
