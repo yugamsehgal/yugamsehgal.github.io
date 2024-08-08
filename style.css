@@ -195,7 +195,6 @@ h1 {
   font-weight: 600;
 }
 
-img {
- /* shortcodes is the answer? */
-  /* display: ; */
+.centered {
+  text-align: center;
 }
