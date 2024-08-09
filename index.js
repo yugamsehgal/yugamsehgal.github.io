@@ -31,11 +31,11 @@ window.onscroll = function () {
   if (prevScrollpos > currentScrollPos) {
     navbar.style.top = "0";
   } else {
-    navbar.style.top = "-" + height + "px";
+    navbar.style.top = "-" + (height+1) + "px";
     navbar.style.boxShadow = theme === "dark" ? "0 1px 0 0 rgba(255,255,255,.2)" : "0 1px 0px 0 rgba(0,0,0,.2)";
   }
   prevScrollpos = currentScrollPos;
-  if (currentScrollPos <= 10) {
+  if (currentScrollPos <= 5) {
     navbar.style.boxShadow = "0 0 0 0 rgba(0,0,0,0)";
   }
 }
