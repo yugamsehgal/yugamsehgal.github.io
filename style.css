@@ -9,8 +9,8 @@
 }
 
 [data-theme="light"] {
-  --color-bg: rgb(244, 236, 216);
-  --color-fg: rgb(91, 70, 54);
+  --color-bg: #f4ecd7;
+  --color-fg: #5b4636;
   --link-color: rgb(0, 97, 224);
   --dark-icon: none;
   --h1: gray;
@@ -22,8 +22,8 @@
 }
 
 [data-theme="dark"] {
-  --color-bg: rgb(28, 27, 34);
-  --color-fg: rgb(251, 251, 254);
+  --color-bg: #1c1b22;
+  --color-fg: #fbfbfe;
   --link-color: rgb(0, 221, 255);
   --light-icon: none;
   --h1: gray;
@@ -81,7 +81,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 999;
-  transition: top 0.1s ease;
+  transition: top 0.2s ease;
 }
 
 .nav-menu {

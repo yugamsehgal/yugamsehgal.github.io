@@ -32,7 +32,7 @@ window.onscroll = function () {
     navbar.style.top = "0";
   } else {
     navbar.style.top = "-" + (height+1) + "px";
-    navbar.style.boxShadow = theme === "dark" ? "0 1px 0 0 rgba(255,255,255,.2)" : "0 1px 0px 0 rgba(0,0,0,.2)";
+    navbar.style.boxShadow = "0 1px 0 0 var(--color-fg)";
   }
   prevScrollpos = currentScrollPos;
   if (currentScrollPos <= 5) {
