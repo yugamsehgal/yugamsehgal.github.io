@@ -2,7 +2,7 @@ window.addEventListener('load', function () {
   var theme = localStorage.getItem('theme');
   // when first load, choose an initial theme
   if (theme === null || theme === undefined) {
-    theme = 'light';
+    theme = 'dark';
     localStorage.setItem('theme', theme);
   }
   // set theme
