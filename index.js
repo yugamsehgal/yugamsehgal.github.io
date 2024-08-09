@@ -31,11 +31,11 @@ window.onscroll = function () {
   if (prevScrollpos > currentScrollPos) {
     navbar.style.top = "0";
   } else {
-    navbar.style.top = "-" + (height+1) + "px";
-    navbar.style.boxShadow = "0 1px 0 0 var(--color-fg)";
+    navbar.style.top = "-" + height + "px";
+    navbar.style.borderBottom = "1px solid var(--color-top-border)";
   }
   prevScrollpos = currentScrollPos;
   if (currentScrollPos <= 5) {
-    navbar.style.boxShadow = "0 0 0 0 rgba(0,0,0,0)";
+    navbar.style.borderBottom = ".5px solid rgba(0,0,0,0)";
   }
 }

@@ -9,10 +9,11 @@
 }
 
 [data-theme="light"] {
-  --color-bg: #f4ecd7;
-  --color-fg: #5b4636;
+  --color-bg: rgb(244, 236, 215);
+  --color-fg: rgb(91, 70, 54);
   --link-color: rgb(0, 97, 224);
   --dark-icon: none;
+  --color-top-border: rgb(91, 70, 54, .4);
   --h1: gray;
   --h2: gray;
   --h3: gray;
@@ -22,10 +23,11 @@
 }
 
 [data-theme="dark"] {
-  --color-bg: #1c1b22;
-  --color-fg: #fbfbfe;
+  --color-bg: rgb(28, 27, 34);
+  --color-fg: rgb(251, 251, 254);
   --link-color: rgb(0, 221, 255);
   --light-icon: none;
+  --color-top-border: rgb(251, 251, 254, .4);
   --h1: gray;
   --h2: gray;
   --h3: gray;
