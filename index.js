@@ -23,3 +23,28 @@ function toggleTheme() {
   var toggleThemeBtn = document.getElementById("toggle-theme-btn");
   // toggleThemeBtn.innerText = theme === "light" ? "night mode: off" : "night mode: on";
 }
+
+// console.log(height);
+// var prevScrollpos = window.pageYOffset;
+// window.onscroll = function() {
+//   var currentScrollPos = window.pageYOffset;
+//   if (prevScrollpos > currentScrollPos) {
+//     document.getElementById("navbar").style.top = "0";
+//   } else {
+//     document.getElementById("navbar").style.top = "-50px";
+//   }
+//   prevScrollpos = currentScrollPos;
+// }
+
+
+var prevScrollpos = window.scrollY;
+window.onscroll = function () {
+  height = document.getElementById('navbar').getBoundingClientRect().height;
+  var currentScrollPos = window.scrollY;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-" + height + "px";
+  }
+  prevScrollpos = currentScrollPos;
+}
