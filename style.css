@@ -71,6 +71,9 @@ body {
 }
 
 .navbar {
+  margin: 0 -15px;
+  padding: 0 15px;
+
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
