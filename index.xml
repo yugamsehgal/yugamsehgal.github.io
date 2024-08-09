@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homepage on Yugam&#39;s Webpage</title>
-    <link>http://localhost:1313/</link>
+    <link>https://yugamsehgal.xyz/</link>
     <description>Recent content in Homepage on Yugam&#39;s Webpage</description>
     <generator>Hugo</generator>
     <language>en-in</language>
     <lastBuildDate>Wed, 07 Aug 2024 13:40:20 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yugamsehgal.xyz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Projects</title>
-      <link>http://localhost:1313/projects/</link>
+      <link>https://yugamsehgal.xyz/projects/</link>
       <pubDate>Wed, 07 Aug 2024 13:40:20 +0530</pubDate>
-      <guid>http://localhost:1313/projects/</guid>
+      <guid>https://yugamsehgal.xyz/projects/</guid>
       <description>2023 Jul - WhatsApp Tic Tac Toe Game&#xA;Jun - Youtube Database&#xA;Previous AWS Android App (ATL Challenge 2021)</description>
     </item>
     <item>
       <title>Next Article</title>
-      <link>http://localhost:1313/articles/nextarticle/</link>
+      <link>https://yugamsehgal.xyz/articles/nextarticle/</link>
       <pubDate>Wed, 07 Aug 2024 07:38:37 +0530</pubDate>
-      <guid>http://localhost:1313/articles/nextarticle/</guid>
+      <guid>https://yugamsehgal.xyz/articles/nextarticle/</guid>
       <description></description>
     </item>
     <item>
       <title>Lorem Ipsum</title>
-      <link>http://localhost:1313/articles/lorem/</link>
+      <link>https://yugamsehgal.xyz/articles/lorem/</link>
       <pubDate>Tue, 06 Aug 2024 07:38:23 +0530</pubDate>
-      <guid>http://localhost:1313/articles/lorem/</guid>
+      <guid>https://yugamsehgal.xyz/articles/lorem/</guid>
       <description>new heading Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quae dicta dolore quibusdam distinctio iusto odit fuga repellendus fugit deleniti non et delectus cumque neque ipsa culpa quaerat atque eligendi nihil mollitia! Minus placeat eos, quibusdam quidem animi, maxime recusandae odit corrupti at quos ducimus similique sequi dolorem porro tenetur! Blanditiis perspiciatis adipisci optio impedit aspernatur veniam omnis saepe perferendis quas accusantium pariatur expedita doloremque quaerat quisquam accusamus modi voluptatum, sit sequi, placeat aperiam aliquam necessitatibus voluptas.</description>
     </item>
     <item>
       <title>Previous Article</title>
-      <link>http://localhost:1313/articles/prevarticle/</link>
+      <link>https://yugamsehgal.xyz/articles/prevarticle/</link>
       <pubDate>Mon, 05 Aug 2024 07:38:42 +0530</pubDate>
-      <guid>http://localhost:1313/articles/prevarticle/</guid>
+      <guid>https://yugamsehgal.xyz/articles/prevarticle/</guid>
       <description></description>
     </item>
   </channel>
