@@ -247,7 +247,16 @@ and (max-width: 600px) {
     flex-direction: column;
   }
 
+  .profile-header div {
+    order: 1;
+  }
+
+  .profile-header p {
+    margin-bottom: 0;
+  }
+
   img[alt=profile_pic] { 
     width: 175px;
+    order: 0;
   }
 }
