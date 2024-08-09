@@ -39,12 +39,13 @@ function toggleTheme() {
 
 var prevScrollpos = window.scrollY;
 window.onscroll = function () {
-  height = document.getElementById('navbar').getBoundingClientRect().height;
+  var navbar = document.getElementById("navbar")
+  height = navbar.getBoundingClientRect().height;
   var currentScrollPos = window.scrollY;
   if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
+    navbar.style.top = "0";
   } else {
-    document.getElementById("navbar").style.top = "-" + height + "px";
+    navbar.style.top = "-" + height + "px";
   }
   prevScrollpos = currentScrollPos;
 }
