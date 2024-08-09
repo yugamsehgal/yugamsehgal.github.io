@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
@@ -14,12 +13,12 @@
   --color-fg: rgb(91, 70, 54);
   --link-color: rgb(0, 97, 224);
   --dark-icon: none;
-  --h1: ;
-  --h2: ;
-  --h3: ;
-  --h4: ;
-  --h5: ;
-  --h6: ;
+  --h1: gray;
+  --h2: gray;
+  --h3: gray;
+  --h4: gray;
+  --h5: gray;
+  --h6: gray;
 }
 
 [data-theme="dark"] {
@@ -27,12 +26,12 @@
   --color-fg: rgb(251, 251, 254);
   --link-color: rgb(0, 221, 255);
   --light-icon: none;
-  --h1: ;
-  --h2: ;
-  --h3: ;
-  --h4: ;
-  --h5: ;
-  --h6: ;
+  --h1: gray;
+  --h2: gray;
+  --h3: gray;
+  --h4: gray;
+  --h5: gray;
+  --h6: gray;
 }
 
 html,
@@ -155,23 +154,25 @@ main {
   display: var(--light-icon);
 }
 
-html {
+/* html {
   overflow-y: scroll;
   scrollbar-width: none;
   -ms-overflow-style: none;
-}
+} */
 
-html::-webkit-scrollbar {
+/* html::-webkit-scrollbar {
   width: 0;
   height: 0;
-}
+} */
 
 footer {
-  margin: 0 -15px;
-  padding: 0 15px;
   flex: none;
-  margin-top: 100px;
+  text-align: center;
+  margin-top: 30vh;
+  padding: 15px;
 }
+
+h1 { text-align: center; }
 
 /* ARTICLE STYLES */
 
@@ -188,12 +189,11 @@ footer {
   font-size: 14px;
 }
 
-h1 { text-align: center; }
 
 #nextprev {
   display: flex;
   align-items: top;
-  margin: 50px 0 150px 0;
+  margin: 50px 0 0 0;
   gap: 25px;
 }
 
@@ -227,12 +227,15 @@ img[alt=profile_pic] {
   border: 4px solid var(--color-fg);
 }
 
-article h1 { color: gray; }
-article h2 { color: gray; }
-article h3 { color: gray; }
-article h4 { color: gray; }
-article h5 { color: gray; }
-article h6 { color: gray; }
+article {
+  h1 { color: var(--h1); }
+  h2 { color: var(--h2); }
+  h3 { color: var(--h3); }
+  h4 { color: var(--h4); }
+  h5 { color: var(--h5); }
+  h6 { color: var(--h6); }
+}
+
 
 .profile-header {
   display: flex;
