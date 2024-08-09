@@ -248,9 +248,11 @@ article {
   align-items: center;
 }
 
-@media screen 
-and (min-width: 300px) 
-and (max-width: 600px) {
+.profile-header p {
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
   .profile-header{
     flex-direction: column;
   }
