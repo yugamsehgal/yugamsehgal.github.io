@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Yugam&#39;s Webpage</title>
-    <link>https://yugamsehgal.xyz/tags/</link>
+    <link>https://yugamsehgal.github.io/tags/</link>
     <description>Recent content in Tags on Yugam&#39;s Webpage</description>
     <generator>Hugo</generator>
     <language>en-in</language>
     <lastBuildDate>Fri, 09 Aug 2024 14:16:29 +0530</lastBuildDate>
-    <atom:link href="https://yugamsehgal.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yugamsehgal.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
-      <link>https://yugamsehgal.xyz/tags/test/</link>
+      <link>https://yugamsehgal.github.io/tags/test/</link>
       <pubDate>Fri, 09 Aug 2024 14:16:29 +0530</pubDate>
-      <guid>https://yugamsehgal.xyz/tags/test/</guid>
+      <guid>https://yugamsehgal.github.io/tags/test/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Test on Yugam&#39;s Webpage</title>
-    <link>https://yugamsehgal.xyz/tags/test/</link>
+    <link>https://yugamsehgal.github.io/tags/test/</link>
     <description>Recent content in Test on Yugam&#39;s Webpage</description>
     <generator>Hugo</generator>
     <language>en-in</language>
     <lastBuildDate>Fri, 09 Aug 2024 14:16:29 +0530</lastBuildDate>
-    <atom:link href="https://yugamsehgal.xyz/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yugamsehgal.github.io/tags/test/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lorem ipsum dolor sit amet consectetur adipisicing elit.</title>
-      <link>https://yugamsehgal.xyz/articles/lorem/</link>
+      <link>https://yugamsehgal.github.io/articles/lorem/</link>
       <pubDate>Fri, 09 Aug 2024 14:16:29 +0530</pubDate>
-      <guid>https://yugamsehgal.xyz/articles/lorem/</guid>
+      <guid>https://yugamsehgal.github.io/articles/lorem/</guid>
       <description>new heading Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quae dicta dolore quibusdam distinctio iusto odit fuga repellendus fugit deleniti non et delectus cumque neque ipsa culpa quaerat atque eligendi nihil mollitia! Minus placeat eos, quibusdam quidem animi, maxime recusandae odit corrupti at quos ducimus similique sequi dolorem porro tenetur! Blanditiis perspiciatis adipisci optio impedit aspernatur veniam omnis saepe perferendis quas accusantium pariatur expedita doloremque quaerat quisquam accusamus modi voluptatum, sit sequi, placeat aperiam aliquam necessitatibus voluptas.</description>
     </item>
   </channel>
